@@ -67,7 +67,7 @@ F1-Score was selected as the target metric to optimize prediction of state (succ
   - 12.1 References
   - 12.2 Useful Links/Blogs
 
-# Python Modules used
+# Python modules used
 - Pandas
 - NumPy
 - Matplotlib
@@ -78,3 +78,14 @@ F1-Score was selected as the target metric to optimize prediction of state (succ
 - statsmodels
 - Scikit Learn
 - Plotly
+
+# Future work
+- Fix XGBoost and AdaBoost
+- Create additional meaningful and visually appealing Data Exploration plots
+- Include further variables (e.g. length of title, length of description, errors in description, ...)
+- Include further publicly available data (e.g. Kaggle Competition)
+- Optimize Preprocessing (Train/Test Split and Pipeline --> position, redundancies, ...)
+- Analyze in more detail the reasons behind cases where converted_pledged_amount < goal but state == "successful" (exchange rates?)
+- Evaluate applicability of different scoring techniques (e.g. "roc_auc" yields very different results from "f1" --> which metric is more applicable depending on the business goal?)
+- Streamline pipelines / reduce redundancies in code
+- Build an App/Mock-up around the illustration in the pdf 
