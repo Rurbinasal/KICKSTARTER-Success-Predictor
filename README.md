@@ -73,8 +73,8 @@ F1-Score was selected as the target metric to optimize prediction of state (succ
 - Matplotlib
 - SciPy
 - Seaborn
-- math
-- datetime
+- Math
+- Datetime
 - statsmodels
 - Scikit Learn
 - Plotly
