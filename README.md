@@ -1,4 +1,4 @@
-![title](figures/Title.png)
+![title](figures/title_img.png)
 
 # Description
 Predictive modeling applying the entire data science lifecycle on basis of a fictious scenario:
