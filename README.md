@@ -43,14 +43,13 @@ F1-Score was selected as the target metric to optimize prediction of state (succ
   - 6.3 Train/test and preprocessing (reduced dataset)
 - **7 Predictive Modeling: Classification ("state")**
   - 7.1 LogReg (with GridSearch)
-  - 7.2 KNeighbors Classifier
-  - 7.3 Random Forest Classifier
-  - 7.4 Support Vector Classifier
-  - 7.5 AdaBoost (Future Work)
-  - 7.6 XGBoost (Future Work)
-  - 7.7 Ensemble Test Multiple Models
-  - 7.8 Optimization (Future Work): RandomizedSearchCV
-  - 7.9 Optimization (Future Work): Training and Predicting Pipeline
+  - 7.2 Random Forest Classifier
+  - 7.3 Support Vector Classifier
+  - 7.4 AdaBoost (Future Work)
+  - 7.5 XGBoost (Future Work)
+  - 7.6 Ensemble Test Multiple Models
+  - 7.7 Optimization (Future Work): RandomizedSearchCV
+  - 7.8 Optimization (Future Work): Training and Predicting Pipeline
 - **8 Predictive Modeling (Future Work): Regression ("usd_pledged")**
   - 8.1 Train/test split and preprocessing pipeline
   - 8.2 Linear regression (OLS)
